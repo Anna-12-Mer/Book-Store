@@ -3,7 +3,7 @@ const http = require('http');
 const path = require('path');
 const mongoose = require('mongoose');
 var cors = require('cors');
-const bodyParser = require('body-perser');
+const bodyParser = require('body-parser');
 
 const app = express();
 // Get API routes
@@ -38,7 +38,7 @@ app.use(function (req, res, next) {
 mongoose.Promise = global.Promise;
 
 //Connection to databse
-mongoose.connect('mongodb://localhost/bookStor');
+mongoose.connect('mongodb://localhost/bookStore');
 var conn = mongoose.connection;
 conn.on('error', console.error.bind(console, 'connection error:'));
 conn.once('open', function () {
