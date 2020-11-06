@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { HoomPageComponent } from './hoom-page/hoom-page.component';
+import { AddBookPageComponent } from './add-book-page/add-book-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     FooterComponent,
-    HoomPageComponent
+    HoomPageComponent,
+    AddBookPageComponent
   ],
   imports: [
     BrowserModule
