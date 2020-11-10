@@ -1,0 +1,38 @@
+.header-img{
+    background-image: url('../../assets/img/book-cover.jfif') ;
+    background-repeat: no-repeat;
+     background-position: center;
+    height: 50%;
+    background-size: cover;
+}
+.text-descrition {
+    color: #fff;
+    text-align: center;
+    font-size: large;
+    font-family: cursive;
+    text-transform : uppercase;
+    padding: 10%;
+}
+.text-descrition > h1> span{
+  font-weight: 800;
+}
+.cover-home{
+    background-color: #3935355c;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.route {
+ color: #fff;
+}
+.route:hover {
+color: #f8c765;
+text-decoration: none;
+}
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
