@@ -1,0 +1,25 @@
+.home{
+ background-image: url('../../assets/img/home-cover.jfif');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ height: 100%;
+}
+
+.cover-home{
+    background-color: #3935355c;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.titel{
+    color: #fff;
+    text-align: center;
+    font-size: x-large;
+    font-family: cursive;
+    text-transform : uppercase;
+    padding: 17%;
+}
+.titel > h1 > p {
+  font-size: small;
+}

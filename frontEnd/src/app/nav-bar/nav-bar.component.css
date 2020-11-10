@@ -4,7 +4,7 @@ nav {
     width: 100%;
     background-color: #512259;
     transition:500ms ease;
-    background:#5122596e;
+    background: transparent;
     z-index: 100
   }
   .nav-title > span {
@@ -63,7 +63,7 @@ nav {
     display: none;
   }
   .sticky {
-    background: #ae905a;
+    background: #7f7b806e;
 }
 @media (max-width:600px) {
     .nav > .nav-btn {

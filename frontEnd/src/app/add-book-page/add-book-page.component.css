@@ -5,6 +5,13 @@
     height: 50%;
     background-size: cover;
 }
+.wrapper {
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    float: none;
+}
 .text-descrition {
     color: #fff;
     text-align: center;
@@ -35,4 +42,15 @@ text-decoration: none;
 	max-width: 1000px;
 	list-style: none;
 	text-align: center;
+}
+.add-btn{
+  background-color: #ffc10785;
+    color: #fff;
+    border-radius: 0px;
+    font-family: 'helvetica' !important;
+    position:relative;
+    line-height: 55px;
+    border: none;
+    padding: 0 16px;
+    margin-left: 45px;
 }
