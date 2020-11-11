@@ -1,0 +1,22 @@
+footer {
+      background-color: #6b4974c4;
+}
+.title {
+    color: #fff;
+    font-family: cursive;
+}
+.footer-p {
+  font-family: cursive;
+  font-size :small;
+  color: #fff;
+}
+.list{
+
+   font-family: cursive;
+  font-size :small;
+
+}
+.list > a {
+ color: #fff;
+  text-decoration: none;
+}

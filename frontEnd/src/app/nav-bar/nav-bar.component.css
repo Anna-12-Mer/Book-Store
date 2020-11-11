@@ -63,7 +63,10 @@ nav {
     display: none;
   }
   .sticky {
-    background: #7f7b806e;
+    background: #6b4974c4;
+}
+.sticky-title{
+  color: white;
 }
 @media (max-width:600px) {
     .nav > .nav-btn {

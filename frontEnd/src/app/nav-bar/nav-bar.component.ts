@@ -16,9 +16,14 @@ export class NavBarComponent implements OnInit {
     if (window.pageYOffset > 200) {
       let element = document.getElementById('navbar-nav');
       element.classList.add('sticky');
+      let element_title = document.getElementById("nav-title");
+      element_title.classList.add('sticky-title');
     } else {
       let element = document.getElementById('navbar-nav');
       element.classList.remove('sticky');
+      let element_title = document.getElementById("nav-title");
+      element_title.classList.remove('sticky-title');
     }
   }
+  
 }
