@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-add-book-page',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./add-book-page.component.css']
 })
 export class AddBookPageComponent implements OnInit {
+  addBookForm : FormBuilder;
 
   constructor() { }
 
